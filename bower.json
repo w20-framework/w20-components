@@ -1,0 +1,24 @@
+{
+  "name": "w20-components",
+  "version": "2.1.0-M1",
+  "ignore": [
+    ".*",
+    "*.iml",
+    "specs",
+    "mocks",
+    "samples",
+    "bower_components",
+    "coverage",
+    "node_modules",
+    "gruntfile.js",
+    "karma.conf.js",
+    "package.json",
+    "test-main.js"
+  ],
+  "dependencies": {
+    "angular-ui-grid": "3.0.1",
+    "angular-ui-select": "0.12.0",
+    "angular-mocks": "1.3.16",
+    "w20": "~2.1"
+  }
+}

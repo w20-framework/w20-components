@@ -1,21 +1,8 @@
 {
   "name": "w20",
-  "version": "2.0.0",
+  "version": "2.1.1",
   "description": "SeedStack Web framework",
   "license": "MPL 2.0",
-  "contributors": [
-    {
-      "name": "Adrien LAUER",
-      "email": "adrien.lauer@mpsa.com"
-    },
-    {
-      "name": "Kavi RAMYEAD",
-      "email": "kavi.ramyead@ext.mpsa.com"
-    },
-    {
-      "name": "Laurent DIDIER"
-    }
-  ],
   "devDependencies": {
     "grunt": "~0.4",
     "grunt-bower-task": "~0.4",

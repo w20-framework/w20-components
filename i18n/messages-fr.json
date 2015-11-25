@@ -1,9 +1,4 @@
 {
-
-    "w20.ui.datepicker.today": "Aujourd'hui",
-    "w20.ui.datepicker.clear": "Effacer",
-    "w20.ui.datepicker.close": "Fermer",
-
     "w20.ui.grid": {
         "aggregate": {
             "label": "élements"

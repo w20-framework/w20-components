@@ -1,8 +1,4 @@
 {
-    "w20.ui.datepicker.today": "Today",
-    "w20.ui.datepicker.clear": "Clear",
-    "w20.ui.datepicker.close": "Done",
-
     "w20.ui.grid": {
         "aggregate": {
             "label": "items"

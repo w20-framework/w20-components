@@ -1,0 +1,12 @@
+<div class="form-group" data-ng-class="{ 'has-error' : options.validation.errorExistsAndShouldBeVisible }">
+    <span class="w20-form-error-label">
+        <label for="{{ id }}"> {{ options.templateOptions.label | localizeSubstring }} {{ options.templateOptions.required ? "*" : "" }} </label>
+        <formly-transclude></formly-transclude>
+    </span>
+
+    <div class="w20-form-error-messages" data-ng-messages="options.formControl.$error" ng-if="options.formControl.$touched">
+        <div class="w20-form-error-message" data-ng-repeat="(name, message) in options.validation.messages" data-ng-message="{{ name }}">
+            {{ message(options.formControl.$viewValue, options.formControl.$modelValue, this) | localizeSubstring }}
+        </div>
+    </div>
+</div>

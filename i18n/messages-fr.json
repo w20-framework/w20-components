@@ -49,5 +49,32 @@
             "exporterVisibleAsPdf": "Exporter les données visible en pdf",
             "exporterSelectedAsPdf": "Exporter la sélection en pdf"
         }
-    }
+    },
+
+    "w20.ui.forms.validation.required": "Ce champ est obligatoire",
+    "w20.ui.forms.validation.email": "Email invalide",
+
+    "w20.ui.forms.validation.max": "Supérieur au maximum autorisé",
+    "w20.ui.forms.validation.max-prefix": "Maximum autorisé ",
+
+    "w20.ui.forms.validation.maxlength": "Trop long",
+    "w20.ui.forms.validation.maxlength-prefix": "Maximum ",
+
+    "w20.ui.forms.validation.min": "Inférieur au minimum autorisé",
+    "w20.ui.forms.validation.min-prefix": "Minimum autorisé ",
+
+    "w20.ui.forms.validation.minlength": "Trop court",
+    "w20.ui.forms.validation.minlength-prefix": "Minimum  ",
+
+    "w20.ui.forms.validation.number": "Nombre invalide",
+
+    "w20.ui.forms.validation.pattern": "Pattern invalide",
+    "w20.ui.forms.validation.pattern-prefix": "Doit correspondre avec ",
+
+    "w20.ui.forms.validation.url": "URL invalide",
+    "w20.ui.forms.validation.date": "Date invalide",
+    "w20.ui.forms.validation.datetimelocal": "Date invalide",
+    "w20.ui.forms.validation.time": "Temps invalide",
+    "w20.ui.forms.validation.week": "Semaine invalide",
+    "w20.ui.forms.validation.month": "Mois invalide"
 }

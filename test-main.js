@@ -39,7 +39,8 @@ window.w20 = {
         '/base/w20-components.w20.json': {
             modules: {
                 grid: {},
-                select: {}
+                select: {},
+                forms: {}
             },
             vars: {
                 'components-path': '/base/bower_components'

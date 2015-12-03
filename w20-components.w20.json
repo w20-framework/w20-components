@@ -18,12 +18,29 @@
         "type": "object",
         "additionalProperties": false
       }
+    },
+    "forms": {
+      "path": "{w20-components}/modules/forms",
+      "configSchema": {
+        "title": "Forms module configuration",
+        "type": "object",
+        "additionalProperties": false
+      }
     }
   },
   "requireConfig": {
+    "map": {
+      "{angular-formly}/formly": {
+        "angular": "{angular}/angular",
+        "api-check": "{api-check}/api-check"
+      }
+    },
     "paths": {
       "{angular-ui-grid}": "${components-path:bower_components}/angular-ui-grid",
-      "{angular-ui-select}": "${components-path:bower_components}/angular-ui-select/dist"
+      "{angular-ui-select}": "${components-path:bower_components}/angular-ui-select/dist",
+      "{angular-messages}": "${components-path:bower_components}/angular-messages",
+      "{angular-formly}": "${components-path:bower_components}/angular-formly/dist",
+      "{api-check}": "${components-path:bower_components}/api-check/dist"
     },
     "shim": {
       "{angular-ui-grid}/ui-grid": [
@@ -33,6 +50,13 @@
       "{angular-ui-select}/select": [
         "{angular}/angular",
         "[css]!{angular-ui-select}/select"
+      ],
+      "{angular-messages}/angular-messages": [
+        "{angular}/angular"
+      ],
+      "{angular-formly}/formly": [
+        "{angular}/angular",
+        "{api-check}/api-check"
       ]
     }
   },

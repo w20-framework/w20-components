@@ -1,0 +1,71 @@
+<div class="form-group"
+     data-ng-class="{
+        'has-error' : !fc[0].$pending && options.validation.errorExistsAndShouldBeVisible && !to.hideValidation,
+        'has-success': !fc[0].$pending && fc[0].$touched && !options.validation.errorExistsAndShouldBeVisible && !to.hideValidation
+     }">
+    <div class="w20-form-error-label">
+        <label class="control-label" for="{{ id }}">
+            {{to.label | localizeSubstring }} {{to.hintOptional ? "w20.ui.forms.validation.optional" : "" | localizeSubstring }}
+        </label>
+
+        <div data-ng-if="options.templateOptions.addon" class="has-feedback">
+            <div class="input-group">
+                <span class="input-group-addon">{{to.addon }}</span>
+                <formly-transclude></formly-transclude>
+            </div>
+            <span data-ng-if="!to.hideValidation" data-ng-include="'icon-append.html'"></span>
+        </div>
+
+        <div data-ng-if="!options.templateOptions.addon" class="has-feedback">
+            <formly-transclude></formly-transclude>
+            <span data-ng-if="!to.hideValidation" data-ng-include="'icon-append.html'"></span>
+        </div>
+
+    </div>
+    <div class="w20-form-error-messages control-label" data-ng-messages="fc[0].$error" ng-if="fc[0].$touched && !to.hideValidation">
+        <div class="w20-form-error-message" data-ng-repeat="(name, message) in options.validation.messages" data-ng-message="{{ name }}">
+            {{ message(fc.$viewValue, fc[0].$modelValue, this) | localizeSubstring }}
+        </div>
+    </div>
+
+    <script type="text/ng-template" id="icon-append.html">
+        <span data-ng-if="!fc[0].$pending && fc[0].$touched && !options.validation.errorExistsAndShouldBeVisible && options.type !== 'checkbox'"
+              class="glyphicon glyphicon-ok form-control-feedback"
+              aria-hidden="true">
+        </span>
+        <span data-ng-if="!fc[0].$pending && fc[0].$touched && options.validation.errorExistsAndShouldBeVisible && options.type !== 'checkbox'"
+              class="glyphicon glyphicon-remove form-control-feedback"
+              data-focus-erase
+              style="pointer-events: all; cursor: pointer"
+              aria-hidden="true">
+        </span>
+        <span data-ng-if="fc[0].$touched && fc[0].$pending && options.type !== 'checkbox'"
+              class="glyphicon glyphicon-refresh glyphicon-refresh-animate form-control-feedback"
+              aria-hidden="true">
+        </span>
+    </script>
+
+    <style scoped>
+        .glyphicon-refresh-animate {
+            -animation: spin .7s infinite linear;
+            -ms-animation: spin .7s infinite linear;
+            -webkit-animation: spinw .7s infinite linear;
+            -moz-animation: spinm .7s infinite linear;
+        }
+
+        @keyframes spin {
+            from { transform: scale(1) rotate(0deg);}
+            to { transform: scale(1) rotate(360deg);}
+        }
+
+        @-webkit-keyframes spinw {
+            from { -webkit-transform: rotate(0deg);}
+            to { -webkit-transform: rotate(360deg);}
+        }
+
+        @-moz-keyframes spinm {
+            from { -moz-transform: rotate(0deg);}
+            to { -moz-transform: rotate(360deg);}
+        }
+    </style>
+</div>

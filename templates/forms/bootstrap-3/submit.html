@@ -1,0 +1,9 @@
+<button type="submit"
+        set-touched
+        id="{{ id }}"
+        data-formly-dynamic-name="id"
+        aria-describedby="{{id}}_description"
+        data-ng-disabled="to.disableIfInvalid && form.$invalid || options.templateOptions.disabled"
+        class="btn btn-primary">
+    {{ (to.text || "w20.ui.forms.validation.submit") | localizeSubstring }}
+</button>

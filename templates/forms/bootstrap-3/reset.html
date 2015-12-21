@@ -1,0 +1,9 @@
+<button type="button"
+        id="{{ id }}"
+        data-formly-dynamic-name="id"
+        aria-describedby="{{id}}_description"
+        data-ng-disabled="options.templateOptions.disabled"
+        class="btn btn-default"
+        data-ng-click="form.$rollbackViewValue()">
+    {{ (to.text || "w20.ui.forms.validation.reset") | localizeSubstring }}
+</button>

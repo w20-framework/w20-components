@@ -18,6 +18,7 @@
   "dependencies": {
     "angular-ui-grid": "3.0.1",
     "angular-ui-select": "0.12.0",
+    "angular-formly": "~7.3.3",
     "w20": "~2.1"
   },
   "devDependencies": {

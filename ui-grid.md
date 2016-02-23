@@ -1,6 +1,14 @@
 ---
 title: "UI grid"
-addon: "W20 components"
+name: "W20 components"
+tags:
+    - "w20"
+    - "frontend"
+    - "rich"
+    - "component"
+    - "grid"
+zones:
+    - Addons
 menu:
     W20Components:
         weight: 20

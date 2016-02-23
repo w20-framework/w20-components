@@ -1,11 +1,19 @@
 ---
-title: "Overview"
-addon: "W20 Components"
+title: "Basics"
+name: "W20 components"
 repo: "https://github.com/seedstack/w20-components"
 author: "SeedStack"
 description: "Provides various UI components"
 min-version: "15.11+"
 frontend: "responsive"
+weight: -1
+tags:
+    - "w20"
+    - "frontend"
+    - "rich"
+    - "component"
+zones:
+    - Addons
 menu:
     W20Components:
         weight: 10

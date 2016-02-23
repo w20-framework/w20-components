@@ -1,12 +1,18 @@
 ---
 title: "Forms"
-addon: "W20 components"
+name: "W20 components"
+tags:
+    - "w20"
+    - "frontend"
+    - "form"
+    - "generation"
+    - "rich"
+zones:
+    - Addons
 menu:
     W20Components:
         weight: 40
 ---
-
-
 
 Forms are one of the most common element in a web application. The web framework provides support for 
 forms building through programmatic configuration. Internally it relies on [Angular Formly](http://docs.angular-formly.com/), 

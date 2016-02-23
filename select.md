@@ -1,6 +1,14 @@
 ---
 title: "UI Select"
-addon: "W20 components"
+name: "W20 components"
+tags:
+    - "w20"
+    - "frontend"
+    - "select"
+    - "combo"
+    - "rich"
+zones:
+    - Addons
 menu:
     W20Components:
         weight: 30

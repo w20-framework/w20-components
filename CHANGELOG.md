@@ -1,3 +1,7 @@
+# Version 2.2.1 (?)
+
+* [chg] Update for SeedStack 16.4
+
 # Version 2.2.0 (2016-01-21)
 
 * [new] Module `forms` enables to easily generate advanced forms (based on Angular Formly).

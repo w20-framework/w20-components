@@ -20,5 +20,8 @@
     "angular-ui-select": "~0.16.0",
     "angular-formly": "~8.1.0",
     "w20": "#master"
-   }
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.8"
+  }
 }

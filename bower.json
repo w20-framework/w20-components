@@ -19,9 +19,12 @@
     "angular-ui-grid": "^3.0.1",
     "angular-ui-select": "^0.12.0",
     "angular-formly": "^7.3.3",
-    "w20": "#master"
-  },
-  "devDependencies": {
-    "angular-mocks": "^1.5.2"
-  }
+    "w20": "#master",
+    "angular" : "~1.4.8",
+    "angular-mocks": "~1.4.8",
+    "angular-messages": "~1.4.8",
+    "angular-resource": "~1.4.8",
+    "angular-route": "~1.4.8",
+    "angular-sanitize": "~1.4.8"
+   }
 }

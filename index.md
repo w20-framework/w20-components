@@ -2,9 +2,9 @@
 title: "Basics"
 name: "W20 components"
 repo: "https://github.com/seedstack/w20-components"
-author: "SeedStack"
-description: "Provides various UI components"
-min-version: "15.11+"
+date: 2016-01-20
+author: Kavi RAMYEAD
+description: "Provides integration of rich UI components like UI-grid, UI-select, ..."
 frontend: "responsive"
 weight: -1
 tags:

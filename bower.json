@@ -19,7 +19,7 @@
     "angular-ui-grid": "~3.1.1",
     "angular-ui-select": "~0.16.0",
     "angular-formly": "~8.1.0",
-    "w20": "#master"
+    "w20": "~2.3.0"
   },
   "devDependencies": {
     "angular-mocks": "~1.4.8"

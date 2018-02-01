@@ -19,7 +19,27 @@ module.exports = function(config) {
             { pattern: '*.json', included: false },
             { pattern: 'modules/**/*.js', included: false },
             { pattern: 'specs/**/*.js', included: false },
-            { pattern: 'bower_components/**/*', included: false }
+            { pattern: 'node_modules/w20/*.json', included: false },
+            { pattern: 'node_modules/w20/modules/!(spec).*', included: false },
+            { pattern: 'node_modules/angular/!(spec).*', included: false },
+            { pattern: 'node_modules/api-check/dist/!(spec).*', included: false },
+            { pattern: 'node_modules/angular-formly/dist/!(spec).*', included: false },
+            { pattern: 'node_modules/angular-ui-grid/!(spec).*', included: false },
+            { pattern: 'node_modules/angular-ui-select/!(spec).*', included: false },
+            { pattern: 'node_modules/angular-messages/!(spec).*', included: false },
+            { pattern: 'node_modules/angular-mocks/!(spec).*', included: false },
+            { pattern: 'node_modules/angular-resource/!(spec).*', included: false },
+            { pattern: 'node_modules/angular-route/!(spec).*', included: false },
+            { pattern: 'node_modules/angular-sanitize/!(spec).*', included: false },
+            { pattern: 'node_modules/globalize/lib/**/!(spec).*', included: false },
+            { pattern: 'node_modules/jgrowl/!(spec).*', included: false },
+            { pattern: 'node_modules/jquery/dist/!(spec).*', included: false },
+            { pattern: 'node_modules/lodash/!(spec).*', included: false },
+            { pattern: 'node_modules/requirejs-text/!(spec).*', included: false },
+            { pattern: 'node_modules/require-css/!(spec).*', included: false },
+            { pattern: 'node_modules/requirejs/!(spec).*', included: false },
+            { pattern: 'node_modules/tv4/!(spec).*', included: false },
+            { pattern: 'node_modules/uri-templates/!(spec).*', included: false }
         ],
         preprocessors: {
             'modules/*.js': 'coverage'

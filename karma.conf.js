@@ -25,7 +25,7 @@ module.exports = function(config) {
             { pattern: 'node_modules/api-check/dist/!(spec).*', included: false },
             { pattern: 'node_modules/angular-formly/dist/!(spec).*', included: false },
             { pattern: 'node_modules/angular-ui-grid/!(spec).*', included: false },
-            { pattern: 'node_modules/angular-ui-select/!(spec).*', included: false },
+            { pattern: 'node_modules/ui-select/dist/!(spec).*', included: false },
             { pattern: 'node_modules/angular-messages/!(spec).*', included: false },
             { pattern: 'node_modules/angular-mocks/!(spec).*', included: false },
             { pattern: 'node_modules/angular-resource/!(spec).*', included: false },

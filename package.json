@@ -1,6 +1,6 @@
 {
   "name": "w20-components",
-  "version": "2.3.0-rc.1",
+  "version": "2.3.0-rc.2",
   "description": "SeedStack Web framework",
   "license": "MPL 2.0",
   "devDependencies": {
@@ -13,8 +13,8 @@
     "grunt-coveralls": "^1.0.0",
     "grunt-karma": "^1.0.0",
     "grunt-ngdocs": "^0.2.8",
-    "karma": "~0.13",
     "jasmine-core": "~2.4.1",
+    "karma": "~0.13",
     "karma-coverage": "~0.2",
     "karma-jasmine": "~0.3.1",
     "karma-phantomjs-launcher": "^1.0.4",
@@ -24,8 +24,8 @@
   "dependencies": {
     "angular-formly": "^8.4.1",
     "angular-ui-grid": "^4.2.2",
-    "angular-ui-select": "^0.12.100",
     "api-check": "^7.5.5",
+    "angular-ui-select": "git+https://github.com/angular-ui/ui-select.git",
     "w20": "~2.4.0-rc"
   }
 }

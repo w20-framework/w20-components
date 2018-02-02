@@ -36,7 +36,7 @@
     },
     "paths": {
       "{angular-ui-grid}": "${components-path:node_modules}/angular-ui-grid",
-      "{angular-ui-select}": "${components-path:node_modules}/angular-ui-select",
+      "{angular-ui-select}": "${components-path:node_modules}/ui-select/dist",
       "{angular-messages}": "${components-path:node_modules}/angular-messages",
       "{angular-formly}": "${components-path:node_modules}/angular-formly/dist",
       "api-check": "${components-path:node_modules}/api-check/dist/api-check"

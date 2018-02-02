@@ -68,15 +68,12 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-ngdocs');
     grunt.loadNpmTasks('grunt-karma');
     grunt.loadNpmTasks('grunt-coveralls');
-    grunt.loadNpmTasks('grunt-bower-task');
     grunt.loadNpmTasks('grunt-contrib-connect');
 
     grunt.registerTask('docs', ['ngdocs', 'connect:docs']);
 
-    grunt.registerTask('default', ['jshint', 'bower', 'karma:test', 'coveralls', 'ngdocs']);
+    grunt.registerTask('default', ['jshint', 'karma:test', 'coveralls', 'ngdocs']);
 };

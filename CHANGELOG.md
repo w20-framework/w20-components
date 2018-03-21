@@ -1,3 +1,8 @@
+# Version 2.3.0 (2018-03-21)
+
+* [brk] Switched from Bower to NPM package manager
+* [chg] Update W20 to ^2.4.0
+
 # Version 2.2.1 (2016-04-27)
 
 * [chg] Update for SeedStack 16.4

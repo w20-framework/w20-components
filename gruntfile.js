@@ -15,7 +15,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         clean: [
-            'nodes_modules/**',
+            'node_modules/**',
             'docs/**',
             'dist/**',
             'coverage/**'

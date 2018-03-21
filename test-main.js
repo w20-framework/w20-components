@@ -18,7 +18,7 @@ for (var file in window.__karma__.files) {
 
 window.w20 = {
     configuration: {
-        '/base/node_modules/w20/w20-core.w20.json': {
+        '/base/node_modules/@w20/w20/w20-core.w20.json': {
             modules: {
                 application: {
                     id: 'w20-test',
@@ -61,6 +61,6 @@ requirejs.config({
 
 });
 
-requirejs([ '/base/node_modules/w20/modules/w20.js' ]);
+requirejs([ '/base/node_modules/@w20/w20/modules/w20.js' ]);
 
 

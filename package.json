@@ -4,8 +4,8 @@
   "description": "W20 Web framework",
   "license": "MPL-2.0",
   "devDependencies": {
-    "angular-mocks": "~1.7.0",
-    "grunt": "^1.0.1",
+    "angular-mocks": "^1.7.1",
+    "grunt": "^1.0.3",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-concat": "~0.5.0",
     "grunt-contrib-connect": "^0.11.2",

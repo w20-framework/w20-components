@@ -4,8 +4,8 @@
   "description": "W20 Web framework",
   "license": "MPL-2.0",
   "devDependencies": {
-    "angular-mocks": "~1.6.8",
-    "grunt": "^1.0.1",
+    "angular-mocks": "~1.7.1",
+    "grunt": "^1.0.3",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-concat": "~0.5.0",
     "grunt-contrib-connect": "^0.11.2",
@@ -23,10 +23,10 @@
   },
   "dependencies": {
     "angular-formly": "^8.4.1",
-    "angular-ui-grid": "^4.2.2",
+    "angular-ui-grid": "~4.4.11",
     "api-check": "^7.5.5",
     "ui-select": "^0.19.8",
-    "@w20/w20": "^2.4.0"
+    "@w20/w20": "~2.4.1"
   },
   "repository": {
     "type": "git",

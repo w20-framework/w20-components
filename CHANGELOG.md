@@ -1,3 +1,8 @@
+# Version 2.3.1 (2018-07-10)
+
+* [chg] Update UI-grid to ^4.6.2
+* [chg] Update W20 to ^2.4.2
+
 # Version 2.3.0 (2018-03-21)
 
 * [brk] Switched from Bower to NPM package manager

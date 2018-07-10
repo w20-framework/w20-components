@@ -74,6 +74,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');
 
     grunt.registerTask('docs', ['ngdocs', 'connect:docs']);
-
-    grunt.registerTask('default', ['jshint', 'karma:test', 'coveralls', 'ngdocs']);
+    grunt.registerTask('default', ['jshint', 'ngdocs']);
+    grunt.registerTask('test', ['karma:test', 'coveralls']);
 };

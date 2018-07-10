@@ -26,3 +26,6 @@ docs/
 
 #Vim
 *~
+
+# Yarn
+yarn-error.log

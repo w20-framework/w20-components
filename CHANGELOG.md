@@ -2,6 +2,7 @@
 
 * [chg] Update UI-grid to ^4.6.2
 * [chg] Update W20 to ^2.4.2
+* [chg] Switch to Yarn as package manager (will preserve the dependency flat structure)
 
 # Version 2.3.0 (2018-03-21)
 

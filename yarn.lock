@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@w20/w20@^2.4.5":
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/@w20/w20/-/w20-2.4.5.tgz#af674a621462822c79ce2530e076016d0bd55fca"
+"@w20/w20@^2.4.6":
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/@w20/w20/-/w20-2.4.6.tgz#433ede4cf2de832e54e34a59fecac8eeef2b2236"
   dependencies:
     angular "^1.7.1"
     angular-animate "^1.7.1"
@@ -19,7 +19,7 @@
     globalize "^0.1.1"
     jgrowl "^1.4.6"
     jquery "^3.0.0"
-    lodash "^2.4.2"
+    lodash "^4.17.10"
     require-css "^0.1.10"
     requirejs "^2.1.22"
     requirejs-text "^2.0.15"
@@ -1782,13 +1782,13 @@ lodash@3.x, lodash@^3.10.1, lodash@^3.8.0:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^2.4.2, lodash@~2.4.1:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
-
-lodash@^4.0.0, lodash@^4.0.1, lodash@~4.17.10, lodash@~4.17.5:
+lodash@^4.0.0, lodash@^4.0.1, lodash@^4.17.10, lodash@~4.17.10, lodash@~4.17.5:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
+
+lodash@~2.4.1:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
 
 log-driver@1.2.5:
   version "1.2.5"
